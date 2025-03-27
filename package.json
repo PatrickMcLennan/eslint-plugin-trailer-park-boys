@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-trailer-park-boys",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "trailerparkboys",
+    "plugin",
+    "fun",
+    "linter",
+    "rickyisms"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickmclennan/eslint-plugin-trailer-park-boys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickmclennan/eslint-plugin-trailer-park-boys/issues"
+  },
+  "homepage": "https://github.com/patrickmclennan/eslint-plugin-trailer-park-boys#readme",
+  "scripts": {
+    "test": "vitest",
+    "dry-run": "npm pack --dry-run",
+    "publish": "npm publish --access public"
+  },
+  "author": "Patrick McLennan",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "vitest": "^3.0.9"
+  },
+  "peerDependencies": {
+    "eslint": "^9.23.0"
+  }
+}
