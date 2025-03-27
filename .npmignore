@@ -1,0 +1,6 @@
+coverage
+test
+.DS_Store
+.vscode
+.github
+tests
